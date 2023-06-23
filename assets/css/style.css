@@ -447,10 +447,7 @@ a:hover,.nav-link:hover{
 .bottom-footer{
     background-color: var(--bottom-footer-bg);
 }
-.bottom-footer .copyright-links p:not(:last-child),.bottom-footer .market-availability p:first-child{
-    border-right: 2px solid #242424;
-    padding-right: 16px;
-}
+
 
 /* Responsive Start */
 @media (min-width: 200px){
@@ -491,6 +488,10 @@ a:hover,.nav-link:hover{
     }
     .pt-430{
         padding-top: 200px;
+    }
+    .bottom-footer .copyright-links p:not(:last-child),.bottom-footer .market-availability p:first-child{
+        border-right: 2px solid #242424;
+        padding-right: 16px;
     }
 }
 @media (min-width: 768px){
